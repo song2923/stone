@@ -18,3 +18,15 @@ src/main/resources/*
 !src/test/java/
 src/test/java/*
 !src/test/java/java24/
+
+
+/local.properties
+/settings.gradle
+/.gradle
+/.idea
+/.settings
+/gradle
+/.classpath
+/.project
+/gradlew
+/gradlew.bat
