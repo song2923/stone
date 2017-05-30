@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Date;
 
 public class ModelAttachfile {
+
     
     private Integer attachfileno = null; //`attachfileno` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
     private String  filename     = "";   //`filename` VARCHAR(50) NOT NULL,
@@ -16,7 +17,6 @@ public class ModelAttachfile {
     private String  UpdateUID    = "";   //`UpdateUID` VARCHAR(40) NULL DEFAULT NULL,
     private Date    UpdateDT     = null; //`UpdateDT` DATETIME NULL DEFAULT NULL,
     private byte[]  imageData    = null; //`imageData` LONGBLOB NULL,
-    
     public Integer getAttachfileno() {
         return attachfileno;
     }
@@ -53,6 +53,7 @@ public class ModelAttachfile {
     public void setUseYN(Boolean useYN) {
         UseYN = useYN;
     }
+
     public String getInsertUID() {
         return InsertUID;
     }
@@ -83,6 +84,7 @@ public class ModelAttachfile {
     public void setImageData(byte[] imageData) {
         this.imageData = imageData;
     }
+
     @Override
     public String toString() {
         return "ModelAttachfile [attachfileno=" + attachfileno + ", filename="
@@ -95,7 +97,5 @@ public class ModelAttachfile {
     public ModelAttachfile() {
         super();
     }
-   
-    
     
 }

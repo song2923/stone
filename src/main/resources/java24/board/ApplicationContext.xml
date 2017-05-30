@@ -46,7 +46,11 @@
     <!-- step3. 데이터베이스 커넥션 설정 -->
     <beans:bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
         <beans:property name="driverClassName"   value="com.mysql.jdbc.Driver" />
+<<<<<<< HEAD
+        <beans:property name="url"               value="jdbc:mysql://localhost:5600/springboard?useUnicode=true&amp;characterEncoding=utf8" />
+=======
         <beans:property name="url"               value="jdbc:mysql://localhost:3306/springboard?useUnicode=true&amp;characterEncoding=utf8" />
+>>>>>>> 2e930254e6bde940991f72dec3d4a4d2551eecc3
         <beans:property name="username"          value="tester1" />
         <beans:property name="password"          value="1234" />
              
@@ -68,6 +72,10 @@
     <beans:bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="singleton">
         <beans:constructor-arg index="0" ref="sqlSessionFactory" />
     </beans:bean>   
+<<<<<<< HEAD
+     
+ </beans:beans>
+=======
     
     <!-- step4. 트랜잭션 설정 :  commit, rollback -->
     <beans:bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -108,3 +116,4 @@
     </tx:advice>
 
 </beans:beans>
+>>>>>>> 2e930254e6bde940991f72dec3d4a4d2551eecc3
