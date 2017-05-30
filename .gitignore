@@ -26,8 +26,8 @@ src/test/java/*
 /gradle
 /.idea
 /.settings
-/gradle
-/.classpath
-/.project
-/gradlew
-/gradlew.bat
+gradle/
+.classpath
+.project
+gradlew
+gradlew.bat
