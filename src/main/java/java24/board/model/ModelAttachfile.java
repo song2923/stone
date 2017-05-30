@@ -84,19 +84,7 @@ public class ModelAttachfile {
     public void setImageData(byte[] imageData) {
         this.imageData = imageData;
     }
-
-    @Override
-    public String toString() {
-        return "ModelAttachfile [attachfileno=" + attachfileno + ", filename="
-                + filename + ", filetype=" + filetype + ", filesize=" + filesize
-                + ", articleno=" + articleno + ", UseYN=" + UseYN
-                + ", InsertUID=" + InsertUID + ", InsertDT=" + InsertDT
-                + ", UpdateUID=" + UpdateUID + ", UpdateDT=" + UpdateDT
-                + ", imageData=" + Arrays.toString(imageData) + "]";
-    }
-    public ModelAttachfile() {
-        super();
-    }
-
     
+
+ 
 }
