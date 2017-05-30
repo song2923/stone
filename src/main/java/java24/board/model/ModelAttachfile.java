@@ -16,6 +16,7 @@ public class ModelAttachfile {
     private String  UpdateUID    = "";   //`UpdateUID` VARCHAR(40) NULL DEFAULT NULL,
     private Date    UpdateDT     = null; //`UpdateDT` DATETIME NULL DEFAULT NULL,
     private byte[]  imageData    = null; //`imageData` LONGBLOB NULL,
+    
     public Integer getAttachfileno() {
         return attachfileno;
     }
