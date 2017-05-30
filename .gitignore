@@ -29,3 +29,6 @@ src/test/java/*
 !src/test/java/java24/
 
 
+/gradlew.bat
+/gradle
+/gradlew
