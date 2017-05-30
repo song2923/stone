@@ -84,9 +84,7 @@ public class ModelAttachfile {
     public void setImageData(byte[] imageData) {
         this.imageData = imageData;
     }
-    public ModelAttachfile() {
-        super();
-    }
+    
 
     
     
