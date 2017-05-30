@@ -22,6 +22,6 @@ public interface IBoard {
     int deleteArticle(ModelArticle TB_BBS_Article);
     
     int increaseHit(int articleNo);
-    int getNextArticle(int articleNo);
+    int getNextArticle();
     
 }
