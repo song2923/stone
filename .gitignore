@@ -23,6 +23,7 @@ src/test/java/*
 /local.properties
 /settings.gradle
 /.gradle
+/gradle
 /.idea
 /.settings
 /gradle
