@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gradle/
 bin/
 build/
@@ -27,3 +28,35 @@ src/test/java/*
 /gradlew.bat
 /local.properties
 /settings.gradle
+=======
+/.gradle/
+/.idea/
+/.settings/
+/gradle/
+/bin/
+/build/
+/logs/
+
+/local.properties
+/settings.gradle
+/.classpath
+/.project
+/gradlew
+/gradlew.bat
+
+
+!src/main/java/
+src/main/java/*
+!src/main/java/java24/
+
+!src/main/resources/
+src/main/resources/*
+!src/main/resources/*.xml
+!src/main/resources/*.properties
+!src/main/resources/java24/
+
+!src/test/java/
+src/test/java/*
+!src/test/java/java24/
+
+>>>>>>> 2e930254e6bde940991f72dec3d4a4d2551eecc3
