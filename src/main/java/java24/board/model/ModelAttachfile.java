@@ -94,8 +94,23 @@ public class ModelAttachfile {
                 + ", UpdateUID=" + UpdateUID + ", UpdateDT=" + UpdateDT
                 + ", imageData=" + Arrays.toString(imageData) + "]";
     }
-    public ModelAttachfile() {
+    public ModelAttachfile(Integer attachfileno, String filename,
+            String filetype, Integer filesize, Integer articleno, Boolean useYN,
+            String insertUID, Date insertDT, String updateUID, Date updateDT,
+            byte[] imageData) {
         super();
+        this.attachfileno = attachfileno;
+        this.filename = filename;
+        this.filetype = filetype;
+        this.filesize = filesize;
+        this.articleno = articleno;
+        UseYN = useYN;
+        InsertUID = insertUID;
+        InsertDT = insertDT;
+        UpdateUID = updateUID;
+        UpdateDT = updateDT;
+        this.imageData = imageData;
     }
+
     
 }
